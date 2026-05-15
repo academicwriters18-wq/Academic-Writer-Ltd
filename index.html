@@ -349,10 +349,17 @@ button:hover {
         </div>
 
         <h3>Send Us a Message</h3>
-        <form>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea rows="5" placeholder="How can we help?"></textarea>
+        <form action="https://formsubmit.co/academicwriters18@gmail.com" method="POST">
+            <!-- Disable FormSubmit captcha and use a honeypot field to reduce spam -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" style="display:none" autocomplete="off">
+            <input type="hidden" name="_subject" value="New contact from website">
+            <!-- Optional: redirect back to site after submission -->
+            <input type="hidden" name="_next" value="https://academicwriters18-wq.github.io/Academic-Writer-Ltd/?success=1">
+
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="5" placeholder="How can we help?" required></textarea>
 
             <button type="submit">Send Message</button>
         </form>
