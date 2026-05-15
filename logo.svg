@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#0d47a1" stroke="#ff9800" stroke-width="3"/>
+  
+  <!-- Open book design -->
+  <g transform="translate(100, 100)">
+    <!-- Book spine -->
+    <rect x="-8" y="-40" width="16" height="80" fill="#ff9800"/>
+    
+    <!-- Left page -->
+    <path d="M -8 -40 L -50 -40 L -50 40 L -8 40 Z" fill="#ffffff" stroke="#0d47a1" stroke-width="2"/>
+    
+    <!-- Right page -->
+    <path d="M 8 -40 L 50 -40 L 50 40 L 8 40 Z" fill="#ffffff" stroke="#0d47a1" stroke-width="2"/>
+    
+    <!-- Left page lines (text effect) -->
+    <line x1="-45" y1="-30" x2="-15" y2="-30" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-45" y1="-20" x2="-15" y2="-20" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-45" y1="-10" x2="-15" y2="-10" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-45" y1="0" x2="-15" y2="0" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-45" y1="10" x2="-15" y2="10" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-45" y1="20" x2="-15" y2="20" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-45" y1="30" x2="-15" y2="30" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    
+    <!-- Right page lines (text effect) -->
+    <line x1="15" y1="-30" x2="45" y2="-30" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="15" y1="-20" x2="45" y2="-20" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="15" y1="-10" x2="45" y2="-10" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="15" y1="0" x2="45" y2="0" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="15" y1="10" x2="45" y2="10" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="15" y1="20" x2="45" y2="20" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    <line x1="15" y1="30" x2="45" y2="30" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
+    
+    <!-- Small decorative element -->
+    <circle cx="0" cy="-50" r="4" fill="#ff9800"/>
+  </g>
+  
+  <!-- Text banner at bottom -->
+  <rect x="10" y="165" width="180" height="25" fill="#ff9800" rx="3"/>
+  <text x="100" y="183" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Academic Writers</text>
+</svg>
