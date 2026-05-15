@@ -1,41 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <!-- Background circle -->
-  <circle cx="100" cy="100" r="95" fill="#0d47a1" stroke="#ff9800" stroke-width="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Dark navy background with rounded corners -->
+  <rect x="0" y="0" width="500" height="500" rx="80" fill="#001a4d"/>
   
-  <!-- Open book design -->
-  <g transform="translate(100, 100)">
-    <!-- Book spine -->
-    <rect x="-8" y="-40" width="16" height="80" fill="#ff9800"/>
-    
-    <!-- Left page -->
-    <path d="M -8 -40 L -50 -40 L -50 40 L -8 40 Z" fill="#ffffff" stroke="#0d47a1" stroke-width="2"/>
-    
-    <!-- Right page -->
-    <path d="M 8 -40 L 50 -40 L 50 40 L 8 40 Z" fill="#ffffff" stroke="#0d47a1" stroke-width="2"/>
-    
-    <!-- Left page lines (text effect) -->
-    <line x1="-45" y1="-30" x2="-15" y2="-30" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="-45" y1="-20" x2="-15" y2="-20" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="-45" y1="-10" x2="-15" y2="-10" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="-45" y1="0" x2="-15" y2="0" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="-45" y1="10" x2="-15" y2="10" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="-45" y1="20" x2="-15" y2="20" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="-45" y1="30" x2="-15" y2="30" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    
-    <!-- Right page lines (text effect) -->
-    <line x1="15" y1="-30" x2="45" y2="-30" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="15" y1="-20" x2="45" y2="-20" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="15" y1="-10" x2="45" y2="-10" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="15" y1="0" x2="45" y2="0" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="15" y1="10" x2="45" y2="10" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="15" y1="20" x2="45" y2="20" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    <line x1="15" y1="30" x2="45" y2="30" stroke="#0d47a1" stroke-width="1.5" opacity="0.6"/>
-    
-    <!-- Small decorative element -->
-    <circle cx="0" cy="-50" r="4" fill="#ff9800"/>
+  <!-- Turquoise/teal background for workspace -->
+  <rect x="65" y="52" width="370" height="280" fill="#1dd1a1" rx="8"/>
+  
+  <!-- Glasses -->
+  <g transform="translate(100, 90)">
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#555" stroke-width="2"/>
+    <circle cx="24" cy="0" r="12" fill="none" stroke="#555" stroke-width="2"/>
+    <line x1="12" y1="0" x2="12" y2="0" stroke="#555" stroke-width="2"/>
   </g>
   
-  <!-- Text banner at bottom -->
-  <rect x="10" y="165" width="180" height="25" fill="#ff9800" rx="3"/>
-  <text x="100" y="183" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Academic Writers</text>
+  <!-- Laptop base (dark) -->
+  <g transform="translate(150, 140)">
+    <rect x="0" y="0" width="200" height="120" fill="#2a2a2a" rx="4"/>
+    <!-- Screen -->
+    <rect x="10" y="10" width="180" height="90" fill="#ffffff" rx="2"/>
+    <!-- Lines on screen -->
+    <line x1="20" y1="25" x2="170" y2="25" stroke="#cccccc" stroke-width="2"/>
+    <line x1="20" y1="35" x2="170" y2="35" stroke="#cccccc" stroke-width="2"/>
+    <line x1="20" y1="45" x2="170" y2="45" stroke="#cccccc" stroke-width="2"/>
+    <line x1="20" y1="55" x2="170" y2="55" stroke="#cccccc" stroke-width="2"/>
+    <line x1="20" y1="65" x2="150" y2="65" stroke="#cccccc" stroke-width="2"/>
+    <!-- Keyboard -->
+    <rect x="0" y="110" width="200" height="10" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Orange/brown bar on left of screen (laptop accent) -->
+  <rect x="120" y="150" width="15" height="100" fill="#ff9500" rx="2"/>
+  
+  <!-- Hands on keyboard -->
+  <g transform="translate(180, 240)">
+    <!-- Left hand -->
+    <path d="M 0 0 L -5 -15 L -10 -20 L -8 0 Z" fill="#d4a574"/>
+    <circle cx="-12" cy="-22" r="3" fill="#d4a574"/>
+    <!-- Right hand -->
+    <path d="M 20 0 L 25 -15 L 30 -20 L 28 0 Z" fill="#d4a574"/>
+    <circle cx="32" cy="-22" r="3" fill="#d4a574"/>
+  </g>
+  
+  <!-- Documents/papers on right -->
+  <g transform="translate(310, 100)">
+    <rect x="0" y="0" width="60" height="80" fill="#ffffff" stroke="#999" stroke-width="1"/>
+    <line x1="5" y1="15" x2="55" y2="15" stroke="#ccc" stroke-width="1"/>
+    <line x1="5" y1="25" x2="55" y2="25" stroke="#ccc" stroke-width="1"/>
+    <line x1="5" y1="35" x2="55" y2="35" stroke="#ccc" stroke-width="1"/>
+    <line x1="5" y1="45" x2="45" y2="45" stroke="#ccc" stroke-width="1"/>
+  </g>
+  
+  <!-- Coffee cup -->
+  <g transform="translate(85, 200)">
+    <ellipse cx="0" cy="0" rx="15" ry="12" fill="#ffffff" stroke="#999" stroke-width="1"/>
+    <ellipse cx="0" cy="-12" rx="15" ry="3" fill="#f5f5f5"/>
+    <!-- Coffee inside -->
+    <ellipse cx="0" cy="-10" rx="12" ry="2" fill="#8B6F47"/>
+    <!-- Handle -->
+    <path d="M 15 -5 Q 25 0 15 10" fill="none" stroke="#999" stroke-width="2"/>
+  </g>
+  
+  <!-- Phone on left -->
+  <g transform="translate(65, 280)">
+    <rect x="0" y="0" width="25" height="40" fill="#8B7B8B" rx="2" stroke="#666" stroke-width="1"/>
+    <rect x="2" y="3" width="21" height="32" fill="#e0e0e0"/>
+  </g>
+  
+  <!-- Decorative element (crumpled paper) -->
+  <g transform="translate(350, 280)">
+    <circle cx="0" cy="0" r="18" fill="#f0f0f0" stroke="#999" stroke-width="1"/>
+    <path d="M -5 -8 Q -8 -5 -5 0 Q -8 3 -5 8" fill="none" stroke="#ccc" stroke-width="1"/>
+  </g>
+  
+  <!-- Blue pants/legs -->
+  <g transform="translate(150, 290)">
+    <path d="M 30 0 L 20 60 L 35 60 Z" fill="#1e90ff"/>
+    <path d="M 170 0 L 180 60 L 165 60 Z" fill="#1e90ff"/>
+  </g>
+  
+  <!-- Text: ACADEMIC WRITERS -->
+  <text x="250" y="390" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="2">ACADEMIC WRITERS</text>
+  
+  <!-- Text: "Towards Excellence" -->
+  <text x="250" y="430" font-family="Arial, sans-serif" font-size="24" fill="#ffd700" text-anchor="middle" font-style="italic">"Towards Excellence"</text>
 </svg>
